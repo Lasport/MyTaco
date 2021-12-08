@@ -5,13 +5,13 @@ const express = require('express');
 const app = express();
 
 //GET
-app.get('/', () => {
+app.get('/', (req, res) => {
 
     res.json({
         ok: true,
-        msg: 'todo'
+        msg: 'todo',
+        uid: 1234
     });
-
 });
 
 app.listen(4000, () => {
