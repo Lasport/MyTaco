@@ -7,8 +7,9 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { PagoComponent } from './pago/pago.component';
 import { ComentariosComponent } from './comentarios/comentarios.component';
 import { CatalogoComponent } from './catalogo/catalogo.component';
-import { SeleccionMesaComponent } from './seleccion-mesa/seleccion-mesa.component';
-import { LoginComponent } from './login/login.component';
+import { PantallaInicioComponent } from './pantalla-inicio/pantalla-inicio.component';
+import { PantallaPedidoComponent } from './pantalla-pedido/pantalla-pedido.component';
+import { LoginComponent } from './login/login.component';i
 
 
 
@@ -20,6 +21,9 @@ import { LoginComponent } from './login/login.component';
     ComentariosComponent,
     CatalogoComponent,
     SeleccionMesaComponent,
+    PantallaInicioComponent,
+    PantallaPedidoComponent
+=======
     LoginComponent
   ],
   imports: [
