@@ -1,5 +1,5 @@
-var bm1= document.getElementById('btn-outline-secondary'),
-contador=0;
+var bm1= document.getElementById('bm');
+var contador=0;
 
 
 function cambio(){
@@ -13,4 +13,4 @@ function cambio(){
 }
 
 
-bm1.addEventListener('click',cambio,true)
+bm1.addEventListener('click',cambio,false)
