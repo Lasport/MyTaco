@@ -20,24 +20,29 @@
 
 
 <div style="width: 1000px; float: right;" >
-    <h5>Confirmar fecha</h5>
+    
+    <label for="start"><h5>Confirmar fecha:</h5></label>
+    <input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2021-12-08" max="2021-12-31">
 </div>
 
-<div style="width: 1000px; float: right;" >
-  <h5>Confirmar hora</h5>
+<div style="width: 1000px; float: right;">
+  <br>
+  
+  <label for="appt"><h5>Confirmar hora</h5></label>
+
+<input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required>
+
 </div>
 
 <div class="mx-4">
 <br>
 <h5>Selecciona tu mesa </h5>
 
-
-  <button id="bm" type="button" class="btn btn-outline-secondary" style="width: 90px;">
-    
-    <br> Mesa 1 
-  </button>
- 
-  <button type="button" class="btn btn-outline-secondary" style="width: 90px;">  <br>Mesa 2 </button>
+  <button type="button" class="btn btn-outline-secondary" style="width: 90px;"> <img src="./assets/tabla.png" height="50"> <br>Mesa 1 </button>
+  <button type="button" class="btn btn-outline-secondary" style="width: 90px;"> <img src="./assets/tabla.png" height="50"> <br>Mesa 2 </button>
   <button type="button" class="btn btn-outline-secondary"  style="width: 90px;"> <img src="./assets/tabla.png" height="50"> <br>Mesa 3 </button>
   <button type="button" class="btn btn-outline-secondary"  style="width: 90px;"> <img src="./assets/tabla.png" height="50"> <br>Mesa 4 </button> 
 </div>
@@ -67,8 +72,8 @@
 </div>
 
 
-  
+<div class="mx-4">
 <br>
   <button type="button" class="btn btn-info">Confirmar</button>
-
+</div>  
 <script src="./assets/botonmesa.js"></script>

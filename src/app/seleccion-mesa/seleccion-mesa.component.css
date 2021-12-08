@@ -1,4 +1,4 @@
-.btn-outline-secondary{
+.bm{
     background-image: url("/assets/tabla.png");
     background-repeat:no-repeat;
     height:60px;
@@ -7,11 +7,30 @@
     background-position:center;
 }
 
-.btn-outline-secondary.ms{
+.bm.ms{
     background-image: url("/assets/stabla.png");
     background-repeat:no-repeat;
     height:60px;
     width:70px;
     background-size: 50px 50px;
     background-position:center;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
 }
