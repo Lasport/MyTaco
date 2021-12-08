@@ -8,6 +8,8 @@ import { PagoComponent } from './pago/pago.component';
 import { ComentariosComponent } from './comentarios/comentarios.component';
 import { CatalogoComponent } from './catalogo/catalogo.component';
 import { SeleccionMesaComponent } from './seleccion-mesa/seleccion-mesa.component';
+import { PantallaInicioComponent } from './pantalla-inicio/pantalla-inicio.component';
+import { PantallaPedidoComponent } from './pantalla-pedido/pantalla-pedido.component';
 
 
 
@@ -18,7 +20,9 @@ import { SeleccionMesaComponent } from './seleccion-mesa/seleccion-mesa.componen
     PagoComponent,
     ComentariosComponent,
     CatalogoComponent,
-    SeleccionMesaComponent
+    SeleccionMesaComponent,
+    PantallaInicioComponent,
+    PantallaPedidoComponent
   ],
   imports: [
     BrowserModule,
