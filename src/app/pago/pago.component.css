@@ -1,0 +1,6 @@
+.content-box {
+    background-image: url("/assets/tacoss.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
