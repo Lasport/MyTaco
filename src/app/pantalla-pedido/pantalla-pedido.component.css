@@ -1,0 +1,86 @@
+div#general{
+    margin: auto;
+    width: 2000px;
+    height: 850px;
+  background-image: url("/assets/tacos2.jpeg");
+  background-size: cover;
+}
+div#menu{
+    margin: auto;
+    height: 80px;
+    background-color: #721d15;
+}
+div#uno{
+  margin: auto;
+  margin-left: 20px;
+  margin-top: 30px;
+  float: left;
+  width: 1960px;
+  height: 700px;
+}
+.form-floating{
+  margin-top: 30px;
+  float: left;
+  width: 600px;
+  height: 100px;
+}
+div#dos{
+  margin: auto;
+  margin-left: 30px;
+  margin-top: 30px;
+  float: left;
+  width: 1000px;
+  height: 350px;
+}
+div#boton{
+  margin: auto;
+  float: left;
+  margin-top: 200px;
+  width: 100px;
+  height: 100px;
+}
+.form-label{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+option{
+  font-size: large;
+}
+legend{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.col-md-4{
+  margin-top: 30px;
+}
+div#ingred{
+  margin-top: 30px;
+}
+.form-check-label{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.floatingTextarea2{
+  font-size: 35px;
+  font-weight: bold;
+}
+div#detalleorden{
+  margin-top: 60px;
+  margin-left: 20px;
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+label#detalleor{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+div#botonconfirmarorden{
+  float: left;
+  margin-top: 60px;
+
+}
