@@ -8,6 +8,7 @@ import { PagoComponent } from './pago/pago.component';
 import { ComentariosComponent } from './comentarios/comentarios.component';
 import { CatalogoComponent } from './catalogo/catalogo.component';
 import { SeleccionMesaComponent } from './seleccion-mesa/seleccion-mesa.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -18,7 +19,8 @@ import { SeleccionMesaComponent } from './seleccion-mesa/seleccion-mesa.componen
     PagoComponent,
     ComentariosComponent,
     CatalogoComponent,
-    SeleccionMesaComponent
+    SeleccionMesaComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
