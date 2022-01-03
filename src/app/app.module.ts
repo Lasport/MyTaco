@@ -20,7 +20,7 @@ import { LoginComponent } from './components/login/login.component';
 import { SeleccionMesaComponent } from './components/seleccion-mesa/seleccion-mesa.component';
 import { CarritoComponent } from './components/carrito/carrito.component';
 
-
+//
 
 @NgModule({
   declarations: [
